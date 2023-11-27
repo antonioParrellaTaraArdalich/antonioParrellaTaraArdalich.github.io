@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="backend.js"></script>
 </head>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
-<ul id="myUL">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
 
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
 
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-</ul>
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'RSVP')" id="defaultOpen">RSVP</button>
+    <button class="tablinks" onclick="openCity(event, 'Our Story')">Our Story</button>
+    <button class="tablinks" onclick="openCity(event, 'Wedding Info')">Wedding Info</button>
+    <button class="tablinks" onclick="openCity(event, 'Contact Us')">Contact Us</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="RSVP" class="tabcontent">
+    <h2>RSVP</h2>
+    <input type="text" id="myInput" onkeyup="reset_names()" placeholder="Start typing your name">
+
+    <div id="myDropdown" class="dropdown-content">
+        <ul id="myUL">
+        <li><a href="#">Adele</a></li>
+        <li><a href="#">Agnes</a></li>
+        
+        <li><a href="https://docs.github.com/en/pages/quickstart">Billy John</a></li>
+        <li><a href="#">Bob</a></li>
+        
+        <li><a href="#">Calvin</a></li>
+        <li><a href="#">Christina</a></li>
+        <li><a href="#">Cindy</a></li>
+        </ul>
+    </div>
+  </div>
+  
+  <div id="Our Story" class="tabcontent">
+    <h2>Our Story</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Wedding Info" class="tabcontent">
+    <h2>Wedding Info</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+
+  <div id="Contact Us" class="tabcontent">
+    <h2>Contact Us</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+
+
+</body>
+</html>
