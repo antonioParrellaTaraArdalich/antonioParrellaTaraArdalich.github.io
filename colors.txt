@@ -1,0 +1,7 @@
+-------Background-------
+Main Background: #e9e1d6
+
+
+
+----------TEXT----------
+Font: #6A87D8
