@@ -1,11 +1,11 @@
 using XLSX
 
 guest_list = XLSX.readxlsx("guestListClean.xlsx")["Sheet1"][:][2:end,3]
-
+links = XLSX.readxlsx("guestListClean.xlsx")["Sheet1"][:][2:end,5]
 total_people = length(guest_list)
 names = guest_list .|> String 
-links = Vector{String}(undef, total_people)
-links .= "httpsantonioandtara.co"
+
+
 
 function table_row(name::String, link::String)
     row = "<tr>\n   <td><a href = " * link * ">" * name * "</a></td>\n</tr>\n"

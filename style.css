@@ -74,15 +74,13 @@
     text-align: center;
 }
 body {
-    font-family: "Sofia", sans-serif;
+    font-family: "main_script", sans-serif;
     background-color: #e9e1d6;
     color: #6A87D8;
 }
 button {
-    font-family: "Sofia", sans-serif;
+    font-family: "main_script", sans-serif;
 }
-
-
 
 
 
@@ -143,4 +141,16 @@ button {
 a {
   text-decoration: none;
   color: #6A87D8;
+}
+
+
+
+
+@font-face {
+  font-family: 'main_script';
+  src: url('PinyonScript-Regular.eot'); /* IE9 Compat Modes */
+  src: url('PinyonScript-Regular?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('PinyonScript-Regular.woff') format('woff'), /* Modern Browsers */
+       url('PinyonScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('PinyonScript-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
