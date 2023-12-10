@@ -77,24 +77,24 @@ body {
     font-family: "Playfair-Ital";
     background-color: #e9e1d6;
     color: #6A87D8;
-    font-size: calc(15px + 0.390625vw);
+    font-size: calc(15px + 1vh);
 }
 button {
     font-family: "Citadel";
-    font-size: calc(15px + 0.390625vw);
+    font-size: calc(15px + 1vh);
 }
 
 tr {
   font-family: "Playfair-Ital";
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(15px + 1vh);
 }
 input {
   font-family: "Playfair-Ital";
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(15px + 1vh);
 }
 h3 {
   font-family: "Citadel";
-  font-size: calc(40px + 0.390625vw);
+  font-size: calc(30px + 1vh);
 }
 
 
@@ -102,8 +102,8 @@ h3 {
 
 /*Filter Input Bar*/
 #myInput {
-  width: 30vw; /* Full-width */
-  font-size: calc(15px + 0.390625vw); /* Increase font-size */
+  width: 50vh; /* Full-width */
+  font-size: calc(15px + 1vh); /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
@@ -135,7 +135,7 @@ h3 {
   border-collapse: collapse; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 1px solid #ddd; /* Add a grey border */
-  font-size: calc(15px + 0.390625vw); /* Increase font-size */
+  font-size: calc(15px + 1vh); /* Increase font-size */
 }
 
 #myTable th, #myTable td {
@@ -159,18 +159,22 @@ a {
 
 #Logo
 .center-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-  max-height: calc(400px + 0.390625vw);
+  max-height: calc(400px + 1vh);
+  text-align:center;
+  width:100%;
+  display:block;
+  margin:auto;
 }
 
 
 h4 {
-  font-size: calc(25px + 0.390625vw);
+  font-size: calc(20px + 1vh);
   text-align: left;
   font-family: "Citadel";
 }
@@ -215,8 +219,8 @@ ul {
       url('Playfair/PlayfairDisplay-Italic.woff') format('woff'),
       url('Playfair/PlayfairDisplay-Italic.ttf') format('truetype'),
       url('Playfair/PlayfairDisplay-Italic.svg#PlayfairDisplay-BlackItalic') format('svg');
-  font-weight: 900;
-  font-style: italic;
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -228,7 +232,7 @@ ul {
       url('Playfair/PlayfairDisplay-Black.woff') format('woff'),
       url('Playfair/PlayfairDisplay-Black.ttf') format('truetype'),
       url('Playfair/PlayfairDisplay-Black.svg#PlayfairDisplay-Black') format('svg');
-  font-weight: 900;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -241,7 +245,7 @@ ul {
       url('Playfair/PlayfairDisplay-Bold.woff') format('woff'),
       url('Playfair/PlayfairDisplay-Bold.ttf') format('truetype'),
       url('Playfair/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
