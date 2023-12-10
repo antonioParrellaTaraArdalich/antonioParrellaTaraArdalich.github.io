@@ -74,25 +74,36 @@
     text-align: center;
 }
 body {
-    font-family: "main_script", sans-serif;
+    font-family: "Playfair-Ital", sans-serif;
     background-color: #e9e1d6;
     color: #6A87D8;
+    font-size: calc(15px + 0.390625vw);
 }
 button {
-    font-family: "main_script", sans-serif;
+    font-family: "Citadel", sans-serif;
+    font-size: calc(15px + 0.390625vw);
 }
 
-
-
-
+tr {
+  font-family: "Playfair-Ital", sans-serif;
+  font-size: calc(15px + 0.390625vw);
+}
+input {
+  font-family: "Playfair-Ital", sans-serif;
+  font-size: calc(15px + 0.390625vw);
+}
+h3 {
+  font-family: "Citadel";
+  font-size: calc(40px + 0.390625vw);
+}
 
 
 
 
 /*Filter Input Bar*/
 #myInput {
-  width: 40%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
+  width: 80vw; /* Full-width */
+  font-size: calc(15px + 0.390625vw); /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
@@ -124,7 +135,7 @@ button {
   border-collapse: collapse; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 1px solid #ddd; /* Add a grey border */
-  font-size: 18px; /* Increase font-size */
+  font-size: calc(15px + 0.390625vw); /* Increase font-size */
 }
 
 #myTable th, #myTable td {
@@ -146,11 +157,84 @@ a {
 
 
 
+#Logo
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: calc(400px + 0.390625vw);
+}
+
+
+
+
+
+
+
+
+
+
 @font-face {
-  font-family: 'main_script';
-  src: url('PinyonScript-Regular.eot'); /* IE9 Compat Modes */
-  src: url('PinyonScript-Regular?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('PinyonScript-Regular.woff') format('woff'), /* Modern Browsers */
-       url('PinyonScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('PinyonScript-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Pinyon';
+  src: url('Pinyon/PinyonScript-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Pinyon/PinyonScript-Regular?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Pinyon/PinyonScript-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Pinyon/PinyonScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Pinyon/PinyonScript-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Citadel';
+  src: url('Citadel/CitadelScript.eot');
+  src: url('Citadel/CitadelScript.eot?#iefix') format('embedded-opentype'),
+      url('Citadel/CitadelScript.woff2') format('woff2'),
+      url('Citadel/CitadelScript.woff') format('woff'),
+      url('Citadel/CitadelScript.ttf') format('truetype'),
+      url('Citadel/CitadelScript.svg#CitadelScript') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Playfair-Ital';
+  src: url('Playfair/PlayfairDisplay-Italic.eot');
+  src: url('Playfair/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+      url('Playfair/PlayfairDisplay-Italic.woff2') format('woff2'),
+      url('Playfair/PlayfairDisplay-Italic.woff') format('woff'),
+      url('Playfair/PlayfairDisplay-Italic.ttf') format('truetype'),
+      url('Playfair/PlayfairDisplay-Italic.svg#PlayfairDisplay-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('Playfair/PlayfairDisplay-Black.eot');
+  src: url('Playfair/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+      url('Playfair/PlayfairDisplay-Black.woff2') format('woff2'),
+      url('Playfair/PlayfairDisplay-Black.woff') format('woff'),
+      url('Playfair/PlayfairDisplay-Black.ttf') format('truetype'),
+      url('Playfair/PlayfairDisplay-Black.svg#PlayfairDisplay-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair-Bold';
+  src: url('Playfair/PlayfairDisplay-Bold.eot');
+  src: url('Playfair/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Playfair/PlayfairDisplay-Bold.woff2') format('woff2'),
+      url('Playfair/PlayfairDisplay-Bold.woff') format('woff'),
+      url('Playfair/PlayfairDisplay-Bold.ttf') format('truetype'),
+      url('Playfair/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }

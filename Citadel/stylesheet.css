@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Citadel Script';
+    src: url('CitadelScript.eot');
+    src: url('CitadelScript.eot?#iefix') format('embedded-opentype'),
+        url('CitadelScript.woff2') format('woff2'),
+        url('CitadelScript.woff') format('woff'),
+        url('CitadelScript.ttf') format('truetype'),
+        url('CitadelScript.svg#CitadelScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
