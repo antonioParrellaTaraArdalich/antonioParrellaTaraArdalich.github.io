@@ -74,22 +74,22 @@
     text-align: center;
 }
 body {
-    font-family: "Playfair-Ital", sans-serif;
+    font-family: "Playfair-Ital";
     background-color: #e9e1d6;
     color: #6A87D8;
     font-size: calc(15px + 0.390625vw);
 }
 button {
-    font-family: "Citadel", sans-serif;
+    font-family: "Citadel";
     font-size: calc(15px + 0.390625vw);
 }
 
 tr {
-  font-family: "Playfair-Ital", sans-serif;
+  font-family: "Playfair-Ital";
   font-size: calc(15px + 0.390625vw);
 }
 input {
-  font-family: "Playfair-Ital", sans-serif;
+  font-family: "Playfair-Ital";
   font-size: calc(15px + 0.390625vw);
 }
 h3 {
@@ -169,7 +169,14 @@ img {
 }
 
 
-
+h4 {
+  font-size: calc(25px + 0.390625vw);
+  text-align: left;
+  font-family: "Citadel";
+}
+ul {
+  text-align: left;
+}
 
 
 
