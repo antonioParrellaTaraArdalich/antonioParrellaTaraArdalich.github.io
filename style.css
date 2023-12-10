@@ -102,7 +102,7 @@ h3 {
 
 /*Filter Input Bar*/
 #myInput {
-  width: 80vw; /* Full-width */
+  width: 30vw; /* Full-width */
   font-size: calc(15px + 0.390625vw); /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
